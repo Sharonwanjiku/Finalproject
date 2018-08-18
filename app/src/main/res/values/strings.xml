@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GoTrendy</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_google">Map</string>
+</resources>

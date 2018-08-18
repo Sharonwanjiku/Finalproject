@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A26FD"
+    tools:context=".AboutUs">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="104dp"
+        android:text="The reason as to why this app was created was mainly to help customers access salons near them,buy products such like braids,perfumes and weaves.This app also helps you as a person to book appointments to save on your time.And for those who dont like carrying money in their hand bags we got you covered since you can pay through mpesa.
+        We want to help you get unforgetable beauty in different salons near you."
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="161dp"
+        android:layout_height="189dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        app:srcCompat="@drawable/express" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="22dp"
+        android:text="BACK" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/b3"
+        android:layout_marginEnd="15dp"
+        android:text="More about us" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="182dp"
+        android:layout_height="193dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView4"
+        app:srcCompat="@drawable/insight" />
+
+</RelativeLayout>
